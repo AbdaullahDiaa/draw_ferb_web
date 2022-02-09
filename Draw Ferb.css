@@ -1,0 +1,183 @@
+/* * {
+    box
+} */
+.contaner {
+    background-color: #9998983d;
+    width: 400px;
+    height:400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 15px 15px 10px #302d2d3d;
+}
+
+.faece{
+    position: relative;
+    width: 45px;
+    height: 200px;
+    background-color:rgb(244 205 154 / 83%);
+    top: 100px;
+    left: 167.5px;
+    border:3px solid  rgba(243, 163, 58, 0.829) ;
+    border-bottom: none;
+    transform: rotate(4deg);
+
+}
+.faece::after {
+    content: "";
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    background-color: rgb(244 205 154 / 83%);
+    border-bottom: 3px solid  rgba(243, 163, 58, 0.829) ;
+    border-left: 5px solid  rgba(243, 163, 58, 0.829) ;
+    top: 130px;
+    left:-15px;
+    border-bottom-left-radius: 20px;
+    transform: skew(-60deg);
+}
+.faece::before {
+    content: "";
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    background-color: rgb(244 205 154 / 83%);
+    top: 67px;
+    right:-15px;
+    border: 3px solid  rgba(243, 163, 58, 0.829) ;
+    border-radius: 20px;
+    border-right:  none;
+    transform: rotate(180deg);
+
+}
+.noice {
+    position: relative;
+    width: 25px;
+    height:25px;
+    background-color:rgb(244 205 154 / 83%);
+    top: -30px;
+    left: 140.5px;
+    border:3px solid  rgba(243, 163, 58, 0.829) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;    
+    border-right: none;
+}
+.noice::after {
+    content: "";
+    width: 23px;
+    height: 26px;
+    position: absolute;
+    background-color: rgb(244 205 154 );
+    border-top: 3px solid  rgba(243, 163, 58) ;
+    top: -3px;
+    left:20px;
+    z-index: 4;
+}
+.eay {
+    position: relative;
+    width: 20px;
+    height:20px;
+    background-color:rgb(255, 255, 255);
+    top: -73px;
+    left: 180.5px;
+    border:3px solid  rgba(0, 0, 0, 0.829) ;
+    border-radius: 50px;
+    z-index: 5;
+
+}
+.eay::after {
+    content: "";
+    position:absolute;
+    width: 2px;
+    height:2px;
+    background-color:rgb(255, 255, 255);
+    top: 4px;
+    left: 7px;
+    border:4px solid  rgba(0, 0, 0, 0.829) ;
+    border-radius: 50px;
+}
+.eayt {
+    position: relative;
+    width: 25px;
+    height:25px;
+    background-color:rgb(255, 255, 255);
+    top: -113px;
+    left: 162.5px;
+    border:3px solid  rgba(0, 0, 0, 0.829) ;
+    border-radius: 50px;
+}
+.eayt::after {
+    content: "";
+    position:absolute;
+    width: 2px;
+    height:2px;
+    background-color:rgb(255, 255, 255);
+    top: 11px;
+    left: 6px;
+    border:4px solid  rgba(0, 0, 0, 0.829) ;
+    border-radius: 50px;
+}
+.hier {
+    position: absolute;
+    width: 97px;
+    height: 46px;
+    top: 80px;
+    left: 145px;
+}
+
+.hier>:nth-child(1) {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-top: solid 19px green;
+    left: -11px;
+    bottom: -31px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(44deg);
+}
+.hier>:nth-child(2) {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-top: solid 19px green;
+    left: 0px;
+    bottom: -40px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(349deg);
+}
+
+.hier>:nth-child(3) {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border-top: solid 19px green;
+    left: 0px;
+    bottom: -35px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(16deg);
+}
+
+.hier>:nth-child(4) {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    border-top: solid 19px green;
+    left: 8px;
+    bottom: -10px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(97deg);
+}
+
+.hier>:nth-child(5) {
+    position: absolute;
+    width: 72px;
+    height: 50px;
+    border-top: solid 19px green;
+    left: 43px;
+    bottom: -41px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(356deg);
+}
+
